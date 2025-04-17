@@ -1,6 +1,6 @@
 import { useState,  useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { buscar, deletar } from "../../../services/Services";
+import { buscar, deletar } from "../../services/Service";
 import { RotatingLines } from "react-loader-spinner";
 import { ToastAlerta } from "../../../utils/ToastAlerta";
 import Categoria from "../../../models/Categoria";
