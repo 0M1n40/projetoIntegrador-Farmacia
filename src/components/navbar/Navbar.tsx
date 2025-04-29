@@ -7,7 +7,7 @@ function Navbar() {
             			   bg-black text-white'>
             
                 <div className="container flex justify-between text-lg">
-                    Farmácia (nome da farmacia) 
+                   <Link to='/'>Projeto Fármacia</Link> 
 
                     <div className='flex gap-4'>
                 
